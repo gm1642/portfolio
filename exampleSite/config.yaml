@@ -124,9 +124,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Umar Ali Khan"
+    subtitle: "Engineering Student | Zakir Husain College Of Engineering And Tech"
+    content: "I love to push my strengths up to their limits and devoted my career to deep learning,computer vision, machine learning. I believe in teamwork and take pleasure in collaborating with others to accomplish common goals."
     image: /images/hero.svg
     bottomImage:
       enable: true
