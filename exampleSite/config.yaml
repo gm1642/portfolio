@@ -125,9 +125,9 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Umar Ali Khan"
-    subtitle: "Engineering Student | Zakir Husain College Of Engineering And Tech"
-    content: "I love to push my strengths up to their limits and devoted my career to deep learning,computer vision, machine learning. I believe in teamwork and take pleasure in collaborating with others to accomplish common goals."
-    image: /images/hero.svg
+    subtitle: "Electronics Engineering Sophomore | Zakir Husain College Of Engineering And Tech"
+    content: "deep learning | computer vision | machine learning"
+    image: /images/umar.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -153,9 +153,11 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+     👋 Hello there! I’m a tech enthusiast who’s absolutely smitten with Computer Vision, Deep Learning, and Embedded Systems. You know, the kind of person who gets a kick out of implementing complex computer vision models on an Nvidia Jetson Nano. 🚀
+     My journey has been quite an adventure, filled with sensors of all shapes and sizes, actuators that move in mysterious ways, and a whole lot of debugging.
+     I’ve had the pleasure of working with some fantastic teams, and together, we’ve brought to life some pretty cool embedded projects. Ever heard of a robotic arm that moves just right or an OTP-Based Smart Lock that’s as secure as a vault? Yep, we did that! 🤖🔒
+     Lately, I’ve been diving into the fascinating world of ADAS and Telematics. It’s like exploring a new planet, but instead of a spaceship, I’ve got Matlab and Simulink as my trusty companions. 🌌
+     So, that’s a little bit about me. Just a tech lover, exploring the universe one line of code at a time. 🌠
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
