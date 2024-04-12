@@ -160,7 +160,7 @@ params:
      So, that’s a little bit about me. Just a tech lover, exploring the universe one line of code at a time. 🌠
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: 
       items:
         - "HTML"
         - "CSS"
