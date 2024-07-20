@@ -125,27 +125,27 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Umar Ali Khan"
-    subtitle: "Electronics Engineering Sophomore | Zakir Husain College Of Engineering And Tech"
-    content: "deep learning | computer vision | machine learning"
+    subtitle: "Electronics Engineering | Zakir Husain College Of Engineering And Tech"
+    content: "Deep Learning | Computer Vision | Machine Learning"
     image: /images/umar.jpg
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+    roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/file/d/1A6hk2mBQZYL8KckxObIZDctTnVYjybQU/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://github.com/gm1642/
+        # - icon: fab fa-x-twitter
+        #   url: https://example.com
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: \image (1).png
+          url: "https://www.linkedin.com/in/umaralikhan705279/"
 
   # About
   about:
@@ -162,12 +162,15 @@ params:
       enable: true
       title: 
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Python"
+        - "Software Development"
+        - "Nature Language Processing"
+        - "Distributed Systems"
+        - "OpenCV"
+        - "Keras"
+        - "Tensorflow"
+        - "Docker"
+        
 
   # Experience
   experience:
