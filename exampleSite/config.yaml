@@ -144,7 +144,7 @@ params:
         # - icon: fab fa-x-twitter
         #   url: https://example.com
       customIcons:
-        - icon: \GitHub-Logo.png
+        - icon: /images/umar.jpg
           url: "https://www.linkedin.com/in/umaralikhan705279/"
 
   # About
