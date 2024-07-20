@@ -284,8 +284,8 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: Live Object detection using yolov8
+        content: Deployed real-time object detection on Nvidia Jetson Nano.
         image: /images/projects/profile.png
         featured:
           name: Demo
@@ -304,7 +304,7 @@ params:
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+        image: /images/projects/converter.jpeg
         featured:
           name: Demo
           link: https://django-converter.herokuapp.com
