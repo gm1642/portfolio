@@ -144,7 +144,7 @@ params:
         # - icon: fab fa-x-twitter
         #   url: https://example.com
       customIcons:
-        - icon: \GitHub-Logo.png
+        - icon: exampleSite\static\GitHub-Logo.png
           url: "https://www.linkedin.com/in/umaralikhan705279/"
 
   # About
@@ -278,7 +278,7 @@ params:
         # featuredLink:
         #   enable: true
         #   url: "https://example.com"
-        
+
   # projects
   projects:
     enable: true
