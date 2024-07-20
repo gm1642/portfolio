@@ -125,7 +125,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Umar Ali Khan"
-    subtitle: "Electronics Engineering | Zakir Husain College Of Engineering And Tech"
+    subtitle: "Electronics Engineering        | Zakir Husain College Of Engineering And Tech"
     content: "Deep Learning | Computer Vision | Machine Learning"
     image: /images/umar.jpg
     bottomImage:
