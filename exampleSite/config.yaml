@@ -127,7 +127,7 @@ params:
     title: "Umar Ali Khan"
     subtitle: "Electronics Engineering  | Zakir Husain College Of Engineering And Tech"
     content: "Deep Learning | Computer Vision | Machine Learning"
-    image: /images/umar.jpg
+    image: /images/IMG_2023.png
     bottomImage:
       enable: true
     roundImage: true # Make hero image circular | default false
