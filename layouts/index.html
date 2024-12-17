@@ -2,8 +2,6 @@
 <meta name="description" content={{ .Site.Params.description }}>
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/index.css" media="all">
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/projects.css" media="all">
-
-<!-- fontawesome -->
 <script defer src="{{ .Site.Params.staticPath }}/fontawesome-6/all-6.4.2.js"></script>
 {{ end }}
 
@@ -16,88 +14,7 @@
 {{- partial "sections/about.html" . -}}
 {{- partial "sections/experience.html" . -}}
 {{- partial "sections/education.html" . -}}
-{{- partial "sections/projects.html" . -}}
+{{- partial "projects.html" . -}} <!-- Use the new projects partial -->
 {{- partial "sections/achievements.html" . -}}
 {{- partial "sections/contact.html" . -}}
 {{ end }}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <style>
-    .carousel img,
-    .carousel video {
-      display: none; /* Hide all items initially */
-      width: 100%;
-      height: auto;
-    }
-
-    .carousel img.active,
-    .carousel video.active {
-      display: block; /* Show only the active item */
-    }
-
-    .carousel video {
-      max-height: 500px; /* Ensure video fits well on the screen */
-    }
-  </style>
-</head>
-<body>
-  <div class="project" id="live-object-detection" data-type="video">
-    <div class="carousel">
-      <img src="/images/projects/profile.png" alt="Project Image">
-      <video controls>
-        <source src="/videos/project1-demo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
-
-  <div class="project" id="exam-chatbot-assistant" data-type="images">
-    <div class="carousel">
-      <img src="/images/projects/profile2.png" alt="Project Image 1">
-      <img src="/images/projects/extra1.png" alt="Project Image 2">
-      <img src="/images/projects/extra2.png" alt="Project Image 3">
-    </div>
-  </div>
-
-  <div class="project" id="otp-smart-lock" data-type="images">
-    <div class="carousel">
-      <img src="/images/projects/convertor.jpeg" alt="Project Image 1">
-      <!-- <img src="/images/projects/extra3.png" alt="Project Image 2">
-      <img src="/images/projects/extra4.png" alt="Project Image 3"> -->
-    </div>
-  </div>
-
-  <script>
-    document.querySelectorAll('.project').forEach((project) => {
-      const carousel = project.querySelector('.carousel');
-      const items = carousel.children;
-      let currentIndex = 0;
-
-      // Initialize by showing the first item
-      items[currentIndex].classList.add('active');
-
-      function showNextItem() {
-        items[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex + 1) % items.length; // Loop to the next item
-        items[currentIndex].classList.add('active');
-
-        // If the next item is a video, reset and play it
-        if (items[currentIndex].tagName === 'VIDEO') {
-          items[currentIndex].currentTime = 0; // Restart video
-          items[currentIndex].play();
-        }
-      }
-
-      // Determine sliding interval based on the project type
-      const intervalTime =
-        project.getAttribute('data-type') === 'video' ? 10000 : 3000; // 10s for video, 3s for images
-      setInterval(showNextItem, intervalTime);
-    });
-  </script>
-</body>
-</html>
