@@ -180,10 +180,7 @@ params:
     items:
       - title: Live Object detection using yolov8
         content: Deployed real-time object detection on Nvidia Jetson Nano.
-        images: 
-         - /images/projects/profile.png
-         - /images/projects/extra1.png
-
+        image: /images/projects/profile.png
         # featured:
         #   name: in-progress
         #   link: https://hugo-profile.netlify.app
@@ -201,10 +198,7 @@ params:
 
       - title: Exam Chatbot Assistant
         content: Building an information retrieval-based chatbot (RAG) to aid GATE exam prep via accurate Q&A and metadata filtering.
-        images: 
-         - /images/projects/profile2.png
-         - /images/projects/extra2.png
-         - /images/projects/extra3.png
+        image: /images/projects/profile2.png
         featured:
           name: In-progress
           # link: https://django-converter.herokuapp.com
