@@ -180,7 +180,10 @@ params:
     items:
       - title: Live Object detection using yolov8
         content: Deployed real-time object detection on Nvidia Jetson Nano.
-        image: /images/projects/profile.png
+        image: 
+          - /images/projects/profile.png
+          - 
+        video: /images/projects/nvidia_project.mp4
         # featured:
         #   name: in-progress
         #   link: https://hugo-profile.netlify.app
@@ -340,9 +343,7 @@ params:
         # featuredLink:
         #   enable: true
         #   url: "https://example.com"
-
-
- # Experience
+  # Experience
   experience:
     enable: true
     # title: "Custom Name"
