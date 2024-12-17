@@ -48,24 +48,48 @@
     const items = carousel.children;
     let currentIndex = 0;
 
-    // Initialize by showing the first item
+    // Initialize by showing only the first item
     items[currentIndex].classList.add('active');
 
     function showNextItem() {
       items[currentIndex].classList.remove('active');
       currentIndex = (currentIndex + 1) % items.length; // Loop to the next item
       items[currentIndex].classList.add('active');
-
-      // If the next item is a video, reset and play it
-      if (items[currentIndex].tagName === 'VIDEO') {
-        items[currentIndex].currentTime = 0; // Restart video
-        items[currentIndex].play();
-      }
     }
 
     // Determine sliding interval based on the project type
     const intervalTime =
       project.getAttribute('data-type') === 'video' ? 10000 : 3000; // 10s for video, 3s for images
-    setInterval(showNextItem, intervalTime);
+
+    // Set interval for carousel sliding
+    setInterval(() => {
+      // Only auto-slide images or non-playing videos
+      if (
+        items[currentIndex].tagName !== 'VIDEO' ||
+        (items[currentIndex].tagName === 'VIDEO' && items[currentIndex].paused)
+      ) {
+        showNextItem();
+      }
+    }, intervalTime);
+  });
+
+  // Use IntersectionObserver to play videos when visible
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        const video = entry.target;
+        if (entry.isIntersecting) {
+          video.play(); // Play video when it becomes visible
+        } else {
+          video.pause(); // Pause video when it goes out of view
+        }
+      });
+    },
+    { threshold: 0.5 } // Video must be at least 50% visible to start playing
+  );
+
+  // Observe all videos
+  document.querySelectorAll('video').forEach((video) => {
+    observer.observe(video);
   });
 </script>
