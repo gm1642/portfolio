@@ -1,19 +1,6 @@
-.carousel img, .carousel video {
-    display: none;
-    width: 100%;
-    height: auto;
-  }
-  
-  .carousel img.active, .carousel video.active {
-    display: block;
-  }
-  
-  .carousel video {
-    max-height: 500px; /* Adjust as per your layout */
-  }
 .carousel img,
 .carousel video {
-  display: none; /* Hide all items initially */
+  display: none; /* Hide all items by default */
   width: 100%;
   height: auto;
 }
@@ -23,6 +10,6 @@
   display: block; /* Show only the active item */
 }
 
-.carousel video {
-  max-height: 500px; /* Ensure video fits well on the screen */
+video {
+  object-fit: cover; /* Maintain video aspect ratio */
 }
