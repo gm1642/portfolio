@@ -1,33 +1,111 @@
-{{ range .Site.Data.projects }}
-<div class="project">
-  <h2>{{ .title }}</h2>
-  <p>{{ .content }}</p>
-  <div id="carousel-{{ .title | urlize }}" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      {{ range $index, $image := .images }}
-      <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-        <img src="{{ $image }}" class="d-block w-100" alt="...">
-      </div>
-      {{ end }}
-    </div>
-    <a class="carousel-control-prev" href="#carousel-{{ .title | urlize }}" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-{{ .title | urlize }}" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-  <div class="badges">
-    {{ range .badges }}
-    <span class="badge badge-primary">{{ . }}</span>
-    {{ end }}
-  </div>
-  <div class="links">
-    {{ range .links }}
-    <a href="{{ .url }}" class="btn btn-link"><i class="{{ .icon }}"></i></a>
-    {{ end }}
+<!-- <h1>My Projects</h1>
+<div class="project" data-type="video">
+  <div class="carousel">
+    
+    <img src="image1.jpg" class="carousel-item" style="display: block; width: 100%; height: auto; object-fit: cover;">
+
+   
+    <video src="video1.mp4" class="carousel-item" muted loop style="display: none; width: 100%; height: auto; object-fit: cover;"></video>
+
+   
+    <img src="image2.jpg" class="carousel-item" style="display: none; width: 100%; height: auto; object-fit: cover;">
   </div>
 </div>
-{{ end }}
+
+<div class="projects-container">
+  
+  <div class="project" id="live-object-detection" data-type="video">
+    <div class="carousel">
+      <img src="/images/projects/profile.png" alt="Project Image">
+      <video controls>
+        <source src="/videos/project1-demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="project-title">Live Object Detection</div>
+    <div class="project-description">
+      Deployed real-time object detection on Nvidia Jetson Nano.
+    </div>
+  </div>
+
+ 
+  <div class="project" id="exam-chatbot-assistant" data-type="images">
+    <div class="carousel">
+      <img src="/images/projects/profile2.png" alt="Project Image 1">
+      <img src="/images/projects/extra1.png" alt="Project Image 2">
+      <img src="/images/projects/extra2.png" alt="Project Image 3">
+    </div>
+    <div class="project-title">Exam Chatbot Assistant</div>
+    <div class="project-description">
+      Building an information retrieval-based chatbot (RAG) for GATE exam prep.
+    </div>
+  </div>
+
+ 
+  <div class="project" id="otp-smart-lock" data-type="images">
+    <div class="carousel">
+      <img src="/images/projects/convertor.jpeg" alt="Project Image 1">
+      <img src="/images/projects/extra3.png" alt="Project Image 2">
+      <img src="/images/projects/extra4.png" alt="Project Image 3"> 
+    </div>
+    <div class="project-title">OTP-Based Smart Lock</div>
+    <div class="project-description">
+      Secure authentication with fingerprint recognition and OTP generation.
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const carousels = document.querySelectorAll('.project .carousel');
+
+    // Initialize IntersectionObserver for videos
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const video = entry.target;
+          if (entry.isIntersecting) {
+            video.play(); // Play when visible
+          } else {
+            video.pause(); // Pause when out of view
+          }
+        });
+      },
+      { threshold: 0.5 } // Trigger when 50% visible
+    );
+
+    carousels.forEach((carousel) => {
+      const items = Array.from(carousel.children);
+      let currentIndex = 0;
+
+      // Show the first item initially
+      items[currentIndex].classList.add('active');
+
+      // Observe all videos
+      items.forEach((item) => {
+        if (item.tagName === 'VIDEO') {
+          observer.observe(item);
+        }
+      });
+
+      // Function to move to the next item
+      function showNextItem() {
+        items[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % items.length; // Loop to the next item
+        items[currentIndex].classList.add('active');
+      }
+
+      // Auto slide logic with intervals
+      setInterval(() => {
+        if (
+          items[currentIndex].tagName !== 'VIDEO' || // If not video, auto-slide
+          (items[currentIndex].tagName === 'VIDEO' && items[currentIndex].paused) // Slide if video isn't playing
+        ) {
+          showNextItem();
+        }
+      }, 5000); // Change slide every 5 seconds
+    });
+  });
+</script>
+
+ -->
