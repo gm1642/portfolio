@@ -1,0 +1,13 @@
+.carousel img, .carousel video {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel img.active, .carousel video.active {
+    display: block;
+  }
+  
+  .carousel video {
+    max-height: 500px; /* Adjust as per your layout */
+  }

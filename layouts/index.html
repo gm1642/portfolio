@@ -20,3 +20,60 @@
 {{- partial "sections/achievements.html" . -}}
 {{- partial "sections/contact.html" . -}}
 {{ end }}
+
+<div class="project" id="live-object-detection" data-type="video">
+    <div class="carousel">
+      <img src="/images/projects/profile.png" alt="Project Image">
+      <video controls>
+        <source src="/videos/project1-demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+</div>
+  
+<div class="project" id="exam-chatbot-assistant" data-type="images">
+    <div class="carousel">
+      <img src="/images/projects/profile2.png" alt="Project Image 1">
+      <img src="/images/projects/extra1.png" alt="Project Image 2">
+      <img src="/images/projects/extra2.png" alt="Project Image 3">
+      <img src="/images/projects/extra3.png" alt="Project Image 4">
+    </div>
+</div>
+  
+<!-- <div class="project" id="otp-smart-lock" data-type="images">
+    <div class="carousel">
+      <img src="/images/projects/convertor.jpeg" alt="Project Image 1">
+      <img src="/images/projects/extra3.png" alt="Project Image 2">
+      <img src="/images/projects/extra4.png" alt="Project Image 3">
+    </div>
+</div>
+   -->
+<script>
+    document.querySelectorAll('.project').forEach(project => {
+      const carousel = project.querySelector('.carousel');
+      const items = carousel.children;
+      let currentIndex = 0;
+  
+      function showNextItem() {
+        items[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % items.length;
+        items[currentIndex].classList.add('active');
+  
+        // If the next item is a video, play it
+        if (items[currentIndex].tagName === 'VIDEO') {
+          items[currentIndex].play();
+        }
+      }
+  
+      // Initialize the first item
+      items[currentIndex].classList.add('active');
+  
+      // Set interval for sliding images
+      if (project.getAttribute('data-type') === 'images') {
+        setInterval(showNextItem, 3000); // Change slide every 3 seconds
+      } else if (project.getAttribute('data-type') === 'video') {
+        setInterval(showNextItem, 10000); // Show image for 10 seconds before switching to video
+      }
+    });
+</script>
+  
