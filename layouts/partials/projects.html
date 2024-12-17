@@ -43,53 +43,56 @@
 </div>
 
 <script>
-  document.querySelectorAll('.project').forEach((project) => {
-    const carousel = project.querySelector('.carousel');
-    const items = carousel.children;
-    let currentIndex = 0;
+  document.addEventListener("DOMContentLoaded", () => {
+    const carousels = document.querySelectorAll('.project .carousel');
 
-    // Initialize by showing only the first item
-    items[currentIndex].classList.add('active');
+    // Initialize IntersectionObserver for videos
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const video = entry.target;
+          if (entry.isIntersecting) {
+            video.play(); // Play when visible
+          } else {
+            video.pause(); // Pause when out of view
+          }
+        });
+      },
+      { threshold: 0.5 } // Trigger when 50% visible
+    );
 
-    function showNextItem() {
-      items[currentIndex].classList.remove('active');
-      currentIndex = (currentIndex + 1) % items.length; // Loop to the next item
+    carousels.forEach((carousel) => {
+      const items = Array.from(carousel.children);
+      let currentIndex = 0;
+
+      // Show the first item initially
       items[currentIndex].classList.add('active');
-    }
 
-    // Determine sliding interval based on the project type
-    const intervalTime =
-      project.getAttribute('data-type') === 'video' ? 10000 : 3000; // 10s for video, 3s for images
-
-    // Set interval for carousel sliding
-    setInterval(() => {
-      // Only auto-slide images or non-playing videos
-      if (
-        items[currentIndex].tagName !== 'VIDEO' ||
-        (items[currentIndex].tagName === 'VIDEO' && items[currentIndex].paused)
-      ) {
-        showNextItem();
-      }
-    }, intervalTime);
-  });
-
-  // Use IntersectionObserver to play videos when visible
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        const video = entry.target;
-        if (entry.isIntersecting) {
-          video.play(); // Play video when it becomes visible
-        } else {
-          video.pause(); // Pause video when it goes out of view
+      // Observe all videos
+      items.forEach((item) => {
+        if (item.tagName === 'VIDEO') {
+          observer.observe(item);
         }
       });
-    },
-    { threshold: 0.5 } // Video must be at least 50% visible to start playing
-  );
 
-  // Observe all videos
-  document.querySelectorAll('video').forEach((video) => {
-    observer.observe(video);
+      // Function to move to the next item
+      function showNextItem() {
+        items[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % items.length; // Loop to the next item
+        items[currentIndex].classList.add('active');
+      }
+
+      // Auto slide logic with intervals
+      setInterval(() => {
+        if (
+          items[currentIndex].tagName !== 'VIDEO' || // If not video, auto-slide
+          (items[currentIndex].tagName === 'VIDEO' && items[currentIndex].paused) // Slide if video isn't playing
+        ) {
+          showNextItem();
+        }
+      }, 5000); // Change slide every 5 seconds
+    });
   });
 </script>
+
+
