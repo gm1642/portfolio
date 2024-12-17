@@ -183,8 +183,7 @@ params:
         images: 
          - /images/projects/profile.png
          - /images/projects/extra1.png
-         - /images/projects/extra2.png
-         - /images/projects/extra3.png
+
         # featured:
         #   name: in-progress
         #   link: https://hugo-profile.netlify.app
@@ -202,7 +201,10 @@ params:
 
       - title: Exam Chatbot Assistant
         content: Building an information retrieval-based chatbot (RAG) to aid GATE exam prep via accurate Q&A and metadata filtering.
-        image: /images/projects/profile2.png
+        images: 
+         - /images/projects/profile2.png
+         - /images/projects/extra2.png
+         - /images/projects/extra3.png
         featured:
           name: In-progress
           # link: https://django-converter.herokuapp.com
