@@ -369,7 +369,6 @@ params:
       #     - icon: fab fa-github
       #       url: https://github.com/gurusabarish/HugoProfileV2
 
-<<<<<<< HEAD
       # - job: "Junior Software Developer"
       #   company: "Apple"
       #   companyUrl: "https://example.com"
@@ -474,8 +473,6 @@ params:
         content: Researching GenAI applications in automotive cybersecurity, analyzing industry standards and countermeasures.
 
         
-=======
->>>>>>> parent of 76bfdd0 (Update config.yaml)
   # Achievements
   # achievements:
   #   enable: true
