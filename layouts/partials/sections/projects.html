@@ -7,7 +7,32 @@
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="{{ .title }}">
                     <div class="card-head">
+                        {{ if .video }}
+                        <video class="card-img-top" controls>
+                            <source src="{{ .video }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        {{ else if .images }}
+                        <div id="carousel-{{ .title | urlize }}" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                {{ range $index, $image := .images }}
+                                <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+                                    <img src="{{ $image }}" class="d-block w-100" alt="{{ $.title }}">
+                                </div>
+                                {{ end }}
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-{{ .title | urlize }}" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-{{ .title | urlize }}" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        {{ else }}
                         <img class="card-img-top" src="{{ .image }}" alt="{{ .title }}">
+                        {{ end }}
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <div class="pb-2 bg-transparent">
