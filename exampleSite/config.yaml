@@ -345,9 +345,9 @@ params:
         company: "Forage"
         companyUrl: "https://www.theforage.com/"
         date: "Nov 2023 – Dec 2023"
-        # featuredLink:
-          # enable: False
-          # url: "https://github.com/gm1642/genai_cybersecurity"
+        featuredLink:
+          enable: False
+          url: "https://drive.google.com/file/d/1fz7qwDNsKE9TncQeAYV5WEp3ZFjXjffD/view?usp=sharing"
         info:
           enable: true
         content: Web scraped data to gain company insights and performed predictive and descriptive analysis on customer buying behaviour.
