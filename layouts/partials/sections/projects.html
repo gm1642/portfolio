@@ -7,7 +7,15 @@
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="{{ .title }}">
                     <div class="card-head">
-                        <img class="card-img-top" src="{{ .image }}" alt="{{ .title }}">
+                        <div class="carousel">
+                            {{ range .images }}
+                            <img src="{{ . }}" alt="{{ $.title }}">
+                            {{ end }}
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="prev">‹</button>
+                            <button class="next">›</button>
+                        </div>
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <div class="pb-2 bg-transparent">
@@ -46,7 +54,15 @@
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="{{ .Title }}">
                     <div class="card-head">
-                        <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
+                        <div class="carousel">
+                            {{ range .Params.images }}
+                            <img src="{{ . }}" alt="{{ $.Title }}">
+                            {{ end }}
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="prev">‹</button>
+                            <button class="next">›</button>
+                        </div>
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <div class="pb-2 bg-transparent">

@@ -180,7 +180,10 @@ params:
     items:
       - title: Live Object detection using yolov8
         content: Deployed real-time object detection on Nvidia Jetson Nano.
-        image: /images/projects/profile.png
+        images:
+          - /images/projects/profile.png
+          - /images/projects/extra1.png
+          - /images/projects/extra2.png
         # featured:
         #   name: in-progress
         #   link: https://hugo-profile.netlify.app
@@ -198,7 +201,10 @@ params:
 
       - title: Exam Chatbot Assistant
         content: Building an information retrieval-based chatbot (RAG) to aid GATE exam prep via accurate Q&A and metadata filtering.
-        image: /images/projects/profile2.png
+        images:
+          - /images/projects/profile2.png
+          - /images/projects/extra3.png
+          - /images/projects/extra4.png
         featured:
           name: In-progress
           # link: https://django-converter.herokuapp.com
@@ -213,7 +219,8 @@ params:
             url: https://github.com/gurusabarish/converter
       - title: OTP based smart lock
         content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
-        image: /images/projects/convertor.jpeg
+        images:
+          - /images/projects/convertor.jpeg
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
