@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1l4ywQsMKgu4uu_fr9iKxRhe7JW6OkNoE/view?usp=sharing"
+      url: "/resume.pdf"
       download: true
       newPage: true
     socialLinks:
@@ -199,7 +199,7 @@ params:
 
       - title: Exam Chatbot Assistant
         content: Building an information retrieval-based chatbot (RAG) to aid GATE exam prep via accurate Q&A and metadata filtering.
-        image: /images/projects/profile2.png
+        image: /images/projects/extra4.png
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1tOAq7ncwTWLBgsHSrZGL9m8EHyub1e62/view?usp=drive_link
@@ -256,20 +256,20 @@ params:
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
-      - title: OTP based smart lock
-        content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
-        image: /images/projects/convertor.jpeg
+      - title: 5-DOF Robotic Arm
+        content: A 5-DOF Robotic Arm which is controlled via Bluetooth using and Android app. It uses simplified forward kinematics and positions can be saved and repeated.
+        image: /images/projects/RA.jpg
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
         badges:
-          - "Embedded Systems"
+          - "CAD"
           - "Arduino"
-          - "Microcontrollers"
-          - "Internet of Things (IoT)"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/converter
+          - "Foward Kinematics"
+          - "3d Printing"
+        featured:
+          name: CAD
+          link: https://drive.google.com/file/d/16B-WZP2g00MQu6TCluT38UvDfXDJOOuq/view?usp=sharing
 
 
   # Education
@@ -340,6 +340,17 @@ params:
         info:
           enable: true
         content: Researching GenAI applications in automotive cybersecurity, analyzing industry standards and countermeasures.
+      
+      - job: "Data Science Intern - Forage"
+        company: "Forage"
+        companyUrl: "https://www.theforage.com/"
+        date: "Nov 2023 – Dec 2023"
+        # featuredLink:
+          # enable: False
+          # url: "https://github.com/gm1642/genai_cybersecurity"
+        info:
+          enable: true
+        content: Web scraped data to gain company insights and performed predictive and descriptive analysis on customer buying behaviour.
 
         
   # Achievements
@@ -371,7 +382,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: samkhan705279@gmail.com
+    btnLink: gm1642@myamu.ac.in
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
