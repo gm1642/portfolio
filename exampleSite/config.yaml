@@ -228,7 +228,7 @@ params:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
       - title: Rectangular Microstrip Patch Antenna
-        content: Designed and simulated a rectangular microstrip patch antenna for 2.4 GHz frequency using ANSYS HFSS software. From the simulation, we observed a return loss of -23 dB at the resonant frequency, indicating good impedance matching. The antenna was fabricated using the finalized dimensions and observed the frequency.
+        content: Designed, simulated and fabricated a rectangular microstrip patch antenna for 2.4 GHz frequency.
         image: /images/projects/WhatsA.jpg
         # featured:
         #   name: Demo
