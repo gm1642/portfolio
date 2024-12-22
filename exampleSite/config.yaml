@@ -200,7 +200,7 @@ params:
         content: Building an information retrieval-based chatbot (RAG) to aid GATE exam prep via accurate Q&A and metadata filtering.
         image: /images/projects/profile2.png
         featured:
-          name: In-progress
+          #name: In-progress
           # link: https://django-converter.herokuapp.com
         badges:
           - "Django"
@@ -211,6 +211,11 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
+        extraImages:
+          - /images/projects/extra1.png
+          - /images/projects/extra2.png
+          - /images/projects/extra3.png
+
       - title: OTP based smart lock
         content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
         image: /images/projects/convertor.jpeg
