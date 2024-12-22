@@ -225,6 +225,50 @@ params:
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
+      - title: OTP based smart lock
+        content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
+        image: /images/projects/convertor.jpeg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Embedded Systems"
+          - "Arduino"
+          - "Microcontrollers"
+          - "Internet of Things (IoT)"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
+
+      - title: OTP based smart lock
+        content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
+        image: /images/projects/convertor.jpeg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Embedded Systems"
+          - "Arduino"
+          - "Microcontrollers"
+          - "Internet of Things (IoT)"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
+      - title: OTP based smart lock
+        content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
+        image: /images/projects/convertor.jpeg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Embedded Systems"
+          - "Arduino"
+          - "Microcontrollers"
+          - "Internet of Things (IoT)"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
+
 
   # Education
   education:
