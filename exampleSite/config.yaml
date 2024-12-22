@@ -346,7 +346,7 @@ params:
         companyUrl: "https://www.theforage.com/"
         date: "Nov 2023 – Dec 2023"
         featuredLink:
-          enable: False
+          enable: true
           url: "https://drive.google.com/file/d/1fz7qwDNsKE9TncQeAYV5WEp3ZFjXjffD/view?usp=sharing"
         info:
           enable: true
