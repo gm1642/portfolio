@@ -181,9 +181,10 @@ params:
       - title: Live Object detection using yolov8
         content: Deployed real-time object detection on Nvidia Jetson Nano.
         image: /images/projects/profile.png
-        # featured:
-        #   name: in-progress
-        #   link: https://hugo-profile.netlify.app
+        featured:
+          name: Demo
+          link: https://drive.google.com/file/d/16B-WZP2g00MQu6TCluT38UvDfXDJOOuq/view?usp=drive_link
+          newPage: true
         badges:
           - "Computer-Vision"
           - "Linux"
@@ -200,14 +201,15 @@ params:
         content: Building an information retrieval-based chatbot (RAG) to aid GATE exam prep via accurate Q&A and metadata filtering.
         image: /images/projects/profile2.png
         featured:
-          name: In-progress
-          # link: https://django-converter.herokuapp.com
+          name: Demo
+          link: https://drive.google.com/file/d/1tOAq7ncwTWLBgsHSrZGL9m8EHyub1e62/view?usp=drive_link
+          newPage: true
         badges:
-          - "Django"
-          - "Langchain"
+          - "Natural Language Processing"
+          - "RAG (Retrieval Augmented Generation)"
           - 'flask'
           - "Weaviate"
-          - "LlamaParse"
+          - "large language models"
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
@@ -225,32 +227,32 @@ params:
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
-      - title: OTP based smart lock
-        content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
-        image: /images/projects/convertor.jpeg
+      - title: Rectangular Microstrip Patch Antenna
+        content: Designed and simulated a rectangular microstrip patch antenna for 2.4 GHz frequency using ANSYS HFSS software. From the simulation, we observed a return loss of -23 dB at the resonant frequency, indicating good impedance matching. The antenna was fabricated using the finalized dimensions and observed the frequency.
+        image: /images/projects/WhatsA.jpg
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
         badges:
-          - "Embedded Systems"
-          - "Arduino"
-          - "Microcontrollers"
-          - "Internet of Things (IoT)"
+          - "Antenna Design"
+          - "ANSYS HFSS"
+          - "Simulation"
+          - "Fabrication"
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
 
-      - title: OTP based smart lock
-        content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
-        image: /images/projects/convertor.jpeg
+      - title: Deep Learning NLP Model for Medical Abstract(skimlit)
+        content: Built deep learning NLP model with feature engineering for structured medical abstract segmentation.
+        image: /images/projects/skimlit.png
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
         badges:
-          - "Embedded Systems"
-          - "Arduino"
-          - "Microcontrollers"
-          - "Internet of Things (IoT)"
+          - "Natural Language Processing"
+          - "Deep Learning"
+          - "Python"
+          - "Tensorflow"
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
