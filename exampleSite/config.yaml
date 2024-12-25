@@ -153,7 +153,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/wordle.jpg"
+    image: "/images/WhatsA.jpg"
     content: |-
      👋 Hello there! I’m a tech enthusiast who’s absolutely smitten with Computer Vision, Deep Learning, and Embedded Systems. You know, the kind of person who gets a kick out of implementing complex computer vision models on an Nvidia Jetson Nano. 🚀
      My journey has been quite an adventure, filled with sensors of all shapes and sizes, actuators that move in mysterious ways, and a whole lot of debugging.
@@ -356,24 +356,20 @@ params:
   # Achievements
   achievements:
     enable: true
-    title: "Custom Name"
+    title: "Workshops/Events"
     items:
       - title: Robotics101 workshop 
         content: Organized a 2-day intensive workshop on robotic arm automation and OpenCV integration, delivering a hands-on OpenCV session to 50+ participants.
         url: https://www.instagram.com/reel/Cx-NtImg02_/
         image: /images/Robotics101.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Vercera
+        content: "VERCERA" a highly engaging 5-day AMURoboClub event, attracting over 250 enthusiastic student participants.
+        url: https://vercera2024.netlify.app/?fbclid=PAY2xjawHYnv1leHRuA2FlbQIxMQABprPNjl7w8Hdmddoyg3C9CBiBawOI7OXXuvGF6-bZOANBqm1UyZ7PlM46qQ_aem_jYhyNir93LsO95uxF6bQug
+        image: /images/Screenshot.png
+      - title: AMURoboClub
+        content: Sharing ideas and collaborative learning in electronics projects. Showcased various projects and encouraged participants to work together and share their knowledge.
+        # url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/abc.jpg
 
 
   #Contact
