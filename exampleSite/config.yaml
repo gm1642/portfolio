@@ -362,7 +362,10 @@ params:
         content: Organized a 2-day intensive workshop on robotic arm automation and OpenCV integration, delivering a hands-on OpenCV session to 50+ participants.
         url: https://www.instagram.com/reel/Cx-NtImg02_/
         image: /images/Robotics101.jpg
-
+      - title: Vercera
+        content: "VERCERA" a highly engaging 5-day AMURoboClub event, attracting over 250 enthusiastic student participants.
+        url: https://vercera2024.netlify.app/
+        image: /images/Screenshot.png
       # - title: Microsoft Imagine Runner
       #   content: We are developed a product which can help others.
       # - title: Google Summer of Code
