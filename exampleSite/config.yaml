@@ -354,26 +354,26 @@ params:
 
         
   # Achievements
-  # achievements:
-  #   enable: true
-  #   # title: "Custom Name"
-  #   items:
-  #     - title: Google kickstart runner
-  #       content: I solved all problems with optimal solution.
-  #       url: https://example.com
-  #       image: /images/achievment.jpg
-  #     - title: Facebook Hackathon Winner
-  #       content: Developed a product using Artificial Intelligence.
-  #       image: /images/achievment.jpg
-  #     - title: Hugo Profile
-  #       content: Developed a theme and getting 1K+ downloads per month.
-  #       url: "https://github.com/gurusabarish/hugo-profile"
-  #       image: /images/achievment.jpg
-  #     - title: Microsoft Imagine Runner
-  #       content: We are developed a product which can help others.
-  #     - title: Google Summer of Code
-  #       content: Contributed to a open source project.
-  #       url: https://example.com
+  achievements:
+    enable: true
+    title: "Custom Name"
+    items:
+      - title: Robotics101 workshop 
+        content: Organized a 2-day intensive workshop on robotic arm automation and OpenCV integration, delivering a hands-on OpenCV session to 50+ participants.
+        url: https://www.instagram.com/reel/Cx-NtImg02_/
+        image: /images/Robotics101.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievment.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievment.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
 
 
   #Contact
