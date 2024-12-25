@@ -363,9 +363,13 @@ params:
         url: https://www.instagram.com/reel/Cx-NtImg02_/
         image: /images/Robotics101.jpg
       - title: Vercera
-        content: "VERCERA" a highly engaging 5-day AMURoboClub event, attracting over 250 enthusiastic student participants.
+        content: VERCERA a highly engaging 5-day AMURoboClub event, attracting over 250 enthusiastic student participants.
         url: https://vercera2024.netlify.app/
         image: /images/Screenshot.jpg
+      - title: AMURoboClub
+        content: sharing ideas and collaborative learning in electronics projects. Showcased various projects and encouraged participants to work together and share their knowledge.
+        # url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/abc.jpg
       # - title: Microsoft Imagine Runner
       #   content: We are developed a product which can help others.
       # - title: Google Summer of Code
