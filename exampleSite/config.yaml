@@ -367,9 +367,14 @@ params:
         url: https://vercera2024.netlify.app/?fbclid=PAY2xjawHYnv1leHRuA2FlbQIxMQABprPNjl7w8Hdmddoyg3C9CBiBawOI7OXXuvGF6-bZOANBqm1UyZ7PlM46qQ_aem_jYhyNir93LsO95uxF6bQug
         image: /images/Screenshot.png
       - title: AMURoboClub
-        content: Sharing ideas and collaborative learning in electronics projects. Showcased various projects and encouraged participants to work together and share their knowledge.
+        content: sharing ideas and collaborative learning in electronics projects. Showcased various projects and encouraged participants to work together and share their knowledge.
         # url: "https://github.com/gurusabarish/hugo-profile"
         image: /images/abc.jpg
+      # - title: Microsoft Imagine Runner
+      #   content: We are developed a product which can help others.
+      # - title: Google Summer of Code
+      #   content: Contributed to a open source project.
+      #   url: https://example.com
 
 
   #Contact
