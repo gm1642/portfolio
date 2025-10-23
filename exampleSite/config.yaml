@@ -153,31 +153,75 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/WhatsA.jpg"
+    image: "/images/sub_profile_img.jpg"
     content: |-
-     👋 Hello there! I’m a tech enthusiast who’s absolutely smitten with Computer Vision, Deep Learning, and Embedded Systems. You know, the kind of person who gets a kick out of implementing complex computer vision models on an Nvidia Jetson Nano. 🚀
-     My journey has been quite an adventure, filled with sensors of all shapes and sizes, actuators that move in mysterious ways, and a whole lot of debugging.
-     I’ve had the pleasure of working with some fantastic teams, and together, we’ve brought to life some pretty cool embedded projects. Ever heard of a robotic arm that moves just right or an OTP-Based Smart Lock that’s as secure as a vault? Yep, we did that! 🤖🔒
-     Lately, I’ve been diving into the fascinating world of ADAS and Telematics. It’s like exploring a new planet, but instead of a spaceship, I’ve got Matlab and Simulink as my trusty companions. 🌌
-     So, that’s a little bit about me. Just a tech lover, exploring the universe one line of code at a time. 🌠
+      👋 Hey there! I’m Umar Ali Khan — a curious mind who thrives where circuits meet code and algorithms meet real life. I’m fascinated by Embedded Systems, Generative AI, and Deep Learning — the kind of person who loves squeezing a neural network onto an ESP32-S3 just to see how far edge intelligence can go. ⚙️🤖 
+
+      My journey’s been packed with adventures — from building real-time YOLOv8 vision systems on the Jetson Nano to developing smart footwear prototypes that track gait, balance, and recovery through biomechanical sensors and ML models. Working with Taipei Medical University gave me the thrill of blending AI with healthcare, where I explored Explainable AI and time-series deep learning to predict ICU sepsis outcomes. 🧠💡
+
+      I’ve also had my hands deep in the world of Generative AI — designing RAG-based chatbots for Continental Automotive and AMULATE Program, crafting pipelines with LangChain, Ollama, and Docker that turn data into intelligent, conversational insights.
+
+      Whether it’s optimizing sensor power efficiency, experimenting with multimodal AR/VR telepresence robots, or diving into human–AI collaboration, I’m driven by one goal — to create technology that feels alive. 🌍✨
+
+      So yeah, just an electronics engineer exploring the universe of AI, one embedded device and one model at a time. 🚀
     skills:
       enable: true
       title: 
       items:
-        - "Python"
-        - "Software Development"
-        - "NLP"
-        - "Distributed Systems"
-        - "OpenCV"
-        - "Keras"
-        - "Tensorflow"
-        - "Docker"
+        - "Generative AI & NLP"
+        - "Embedded Systems & Electronics"
+        - "Machine Learning & Deep Learning"
+        - "Computer Vision & Multimodal Systems"
+    
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Walking Stride Analyser
+        content: walking stride analysis using ESP32-S3 microcontrollers and biomechanical sensors to monitor gait, balance, and recovery.
+        image: /images/projects/E12.jpg
+        featured:
+          name: Demo
+          link: https://drive.google.com/file/d/1ySO3g1O127xRBFxcvc6HypvDjDeAw10n/view?usp=sharing
+          newPage: true
+        badges:
+          - "Embedded Systems"
+          - "Machine Learning"
+          - "Sensor Integration"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fab fa-github
+          #   url: https://github.com/Samkhan705279/yolo_Nvidia_jetson_nano
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile      -     
+
+
+      - title: AR/VR for Human–Robot Interaction
+        content: Developed an AR-based telepresence system that allows operators to have precise control over a mobile robot via the AjnaXR headset, integrating real-time video feedback synchronized with head movements.
+        image: /images/projects/P12.png
+        featured:
+          name: Demo
+          link: https://drive.google.com/file/d/1TvlXhqKbuVUD8AdZDwdrRKkGR0pfPpJe/view?usp=sharing
+          newPage: true
+        badges:
+          - "Unity (C#)"
+          - "ESP32S3"
+          - "AJNAXR"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fab fa-github
+          #   url: https://github.com/Samkhan705279/yolo_Nvidia_jetson_nano
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile      - 
+        
+
+
+
+          
       - title: Live Object detection using yolov8
         content: Deployed real-time object detection on Nvidia Jetson Nano.
         image: /images/projects/profile.png
