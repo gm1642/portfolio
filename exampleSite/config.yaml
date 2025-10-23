@@ -126,15 +126,15 @@ params:
     intro: "Hi, my name is"
     title: "Umar Ali Khan"
     subtitle: "Electronics Engineering  | Zakir Husain College Of Engineering And Tech"
-    content: "Deep Learning | Computer Vision | Machine Learning"
-    image: /images/umar.jpg
+    content: "Biomedical Electronics, Federated Mining, Retrieval Augmented Generation, Energy-Efficient Deep Models (for Edge AI), Prompt Engineering, Gaurdrails for LLMs, Multi-Modal Agentic Systems, Sensor Fusion, Human-Robot Interaction using AR/VR Interfaces"
+    image: /images/profile_pic.png
     bottomImage:
       enable: true
     roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "/resume.pdf"
+      name: "Email"
+      url: "mailto:samkhan705279@gmail.com"
       download: true
       newPage: true
     socialLinks:
