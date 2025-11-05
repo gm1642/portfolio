@@ -201,7 +201,7 @@ params:
 
       - title: AR/VR for Human–Robot Interaction
         content: Developed an AR-based telepresence system that allows operators to have precise control over a mobile robot via the AjnaXR headset, integrating real-time video feedback synchronized with head movements.
-        image: /images/projects/new_PR.jpg
+        image: /images/projects/new_PRG.gif
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1TvlXhqKbuVUD8AdZDwdrRKkGR0pfPpJe/view?usp=sharing
