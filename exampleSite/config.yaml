@@ -181,7 +181,7 @@ params:
     items:
       - title: Walking Stride Analyser
         content: walking stride analysis using ESP32-S3 microcontrollers and biomechanical sensors to monitor gait, balance, and recovery.
-        image: /images/projects/E12.jpg
+        image: /images/projects/E12.gif
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1ySO3g1O127xRBFxcvc6HypvDjDeAw10n/view?usp=sharing
