@@ -181,7 +181,7 @@ params:
     items:
       - title: Walking Stride Analyser
         content: walking stride analysis using ESP32-S3 microcontrollers and biomechanical sensors to monitor gait, balance, and recovery.
-        image: /images/projects/E12.gif
+        image: /images/projects/E122.gif
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1ySO3g1O127xRBFxcvc6HypvDjDeAw10n/view?usp=sharing
@@ -201,7 +201,7 @@ params:
 
       - title: AR/VR for Human–Robot Interaction
         content: Developed an AR-based telepresence system that allows operators to have precise control over a mobile robot via the AjnaXR headset, integrating real-time video feedback synchronized with head movements.
-        image: /images/projects/new_PRG.gif
+        image: /images/projects/new_PRGN.gif
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1TvlXhqKbuVUD8AdZDwdrRKkGR0pfPpJe/view?usp=sharing
@@ -218,7 +218,20 @@ params:
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile      - 
         
-
+      - title: Virtual Lab XR Environment (AjnaXR + Unity)
+        content: Developed a 360° VR-based virtual laboratory environment using the AjnaXR headset and Unity, enabling students to explore stitched panoramic scenes of the Communication Lab with teleport-based navigation and optimized XR performance.
+        image: /images/projects/AR_VR.gif
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+        - "Unity (C#)"
+        - "Image Stitching"
+        - "AjnaXR"
+        - "OpenXR"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
 
 
           
@@ -271,20 +284,6 @@ params:
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
-      - title: Rectangular Microstrip Patch Antenna
-        content: Designed, simulated and fabricated a rectangular microstrip patch antenna for 2.4 GHz frequency.
-        image: /images/projects/WhatsA.jpg
-        # featured:
-        #   name: Demo
-        #   link: https://django-converter.herokuapp.com
-        badges:
-          - "Antenna Design"
-          - "ANSYS HFSS"
-          - "Simulation"
-          - "Fabrication"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/converter
 
       - title: Deep Learning NLP Model for Medical Abstract(skimlit)
         content: Built deep learning NLP model with feature engineering for structured medical abstract segmentation.
@@ -314,6 +313,22 @@ params:
         featured:
           name: Demo
           link: https://www.instagram.com/reel/Cx-NtImg02_/
+
+
+      - title: Rectangular Microstrip Patch Antenna
+        content: Designed, simulated and fabricated a rectangular microstrip patch antenna for 2.4 GHz frequency.
+        image: /images/projects/WhatsA.jpg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Antenna Design"
+          - "ANSYS HFSS"
+          - "Simulation"
+          - "Fabrication"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
 
   # Education
   education:
