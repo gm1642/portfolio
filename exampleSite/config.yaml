@@ -237,7 +237,7 @@ params:
           
       - title: Live Object detection using yolov8
         content: Deployed real-time object detection on Nvidia Jetson Nano.
-        image: /images/projects/profile.png
+        image: /images/projects/profile.gif
         featured:
           name: Demo
           link: https://drive.google.com/file/d/16B-WZP2g00MQu6TCluT38UvDfXDJOOuq/view?usp=drive_link
@@ -256,7 +256,7 @@ params:
 
       - title: Exam Chatbot Assistant
         content: Building an information retrieval-based chatbot (RAG) to aid GATE exam prep via accurate Q&A and metadata filtering.
-        image: /images/projects/extra4.png
+        image: /images/projects/extra4.gif
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1tOAq7ncwTWLBgsHSrZGL9m8EHyub1e62/view?usp=drive_link
