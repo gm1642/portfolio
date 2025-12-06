@@ -181,7 +181,7 @@ params:
     # title: "Custom Name"
     items:
       - title: SepsisStratify AI
-        content: A hybrid clinical prognosis framework integrating ResNet1D for time-series biomarker analysis with an agentic Large Language Model (Llama-3 via Groq) for semantic risk refinement. Features an Explainable AI (XAI) engine using Integrated Gradients to provide transparent, text-based clinical recommendations, achieving a 12.9% F1-score improvement on MIMIC-IV data.
+        content: A hybrid clinical prognosis framework integrating ResNet1D for time-series biomarker analysis with an agentic Large Language Model (Llama-3.1) for semantic risk refinement. Features an Explainable AI (XAI) engine using Integrated Gradients to provide transparent, text-based clinical recommendations, achieving a 12.9% F1-score improvement on MIMIC-IV data.
         image: /images/projects/zq.gif
         featured:
           # name: View Project Doc
