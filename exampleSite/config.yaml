@@ -142,9 +142,9 @@ params:
         - icon: fab fa-github
           url: https://github.com/gm1642/
           newPage: true
-        - icon: fab fa-github
-          url: https://github.com/samkhan705279/
-          newPage: true
+        # - icon: fab fa-github
+        #   url: https://github.com/samkhan705279/
+        #   newPage: true
       customIcons:
         - icon: /images/image (1).png
           url: "https://www.linkedin.com/in/umaralikhan705279/"
