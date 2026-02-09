@@ -193,6 +193,9 @@ params:
           - "Deep Learning"
           - "Explainable AI"
           - "MIMIC-IV and eICU CRD"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gm1642/SepStratify-AI-Sepsis-Prediction
 
       - title: Walking Stride Analyser
         content: walking stride analysis using ESP32-S3 microcontrollers and biomechanical sensors to monitor gait, balance, and recovery.
@@ -228,8 +231,8 @@ params:
         links:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          # - icon: fab fa-github
-          #   url: https://github.com/Samkhan705279/yolo_Nvidia_jetson_nano
+          - icon: fab fa-github
+            url: https://github.com/gm1642/AR-VR-for-Human-Robot-Interaction
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile      - 
         
@@ -244,9 +247,9 @@ params:
         - "Image Stitching"
         - "AjnaXR"
         - "OpenXR"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/converter
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gm1642/Virtual-Lab-Remote-Learning
 
 
           
@@ -265,7 +268,7 @@ params:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/Samkhan705279/yolo_Nvidia_jetson_nano
+            url: https://github.com/gm1642/Edge-AI-Live-Object-Detection
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
@@ -284,7 +287,7 @@ params:
           - "large language models"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/gm1642/GATE-Exam-RAG-Chatbot
       - title: OTP based smart lock
         content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
         image: /images/projects/convertor.jpeg
