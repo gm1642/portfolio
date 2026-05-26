@@ -126,7 +126,7 @@ params:
     intro: "Hi, my name is"
     title: "Umar Ali Khan"
     subtitle: "Electronics Engineering  | Zakir Husain College Of Engineering And Tech"
-    content: "Biomedical Electronics, Federated Mining, Retrieval Augmented Generation, Energy-Efficient Deep Models (for Edge AI), Prompt Engineering, Gaurdrails for LLMs, Multi-Modal Agentic Systems, Sensor Fusion, Human-Robot Interaction using AR/VR Interfaces"
+    content: "Embedded AI, Biomedical Electronics, Embedded Systems,Retrieval Augmented Generation, Energy-Efficient Deep Models (for Edge AI), Multi-Modal Agentic Systems, Sensor Fusion, Hardware_Software Co-Design"
     image: /images/profile_pic.png
     bottomImage:
       enable: true
@@ -156,7 +156,7 @@ params:
     title: "About Me"
     image: "/images/sub_profile_img.jpg"
     content: |-
-      👋 Hey there! I’m Umar Ali Khan — a curious mind who thrives where circuits meet code and algorithms meet real life. I’m fascinated by Embedded Systems, Generative AI, and Deep Learning — the kind of person who loves squeezing a neural network onto an ESP32-S3 just to see how far edge intelligence can go. ⚙️🤖 
+      👋 Hey there! I’m Umar Ali Khan — a curious mind who thrives where circuits meet code and algorithms meet real life. I’m fascinated by Embedded Systems and Artificial Intelligence — the kind of person who loves squeezing a neural network onto an ESP32-S3 just to see how far edge intelligence can go. ⚙️🤖 
 
       My journey’s been packed with adventures — from building real-time YOLOv8 vision systems on the Jetson Nano to developing smart footwear prototypes that track gait, balance, and recovery through biomechanical sensors and ML models. Working with Taipei Medical University gave me the thrill of blending AI with healthcare, where I explored Explainable AI and time-series deep learning to predict ICU sepsis outcomes. 🧠💡
 
@@ -168,11 +168,13 @@ params:
     skills:
       enable: true
       title: 
-      items:
-        - "Generative AI & NLP"
-        - "Embedded Systems & Electronics"
-        - "Machine Learning & Deep Learning"
-        - "Computer Vision & Multimodal Systems"
+      # items:
+      #   - "Embedded Systems & Electronics"
+      #   - "Machine Learning & Deep Learning"
+      #   - "Wearable Electronics"
+      #   - 
+      #   - 
+      #   - "Embedded Systems & Electronics"
     
 
   # projects
@@ -250,8 +252,8 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/Samkhan705279/otp_based_smartlock/blob/main/code.ino
-            
-                    
+
+
       - title: Virtual Lab XR Environment (AjnaXR + Unity)
         content: Developed a 360° VR-based virtual laboratory environment using the AjnaXR headset and Unity, enabling students to explore stitched panoramic scenes of the Communication Lab with teleport-based navigation and optimized XR performance.
         image: /images/projects/AR_VR.gif
