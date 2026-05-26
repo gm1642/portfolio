@@ -126,7 +126,7 @@ params:
     intro: "Hi, my name is"
     title: "Umar Ali Khan"
     subtitle: "Electronics Engineering  | Zakir Husain College Of Engineering And Tech"
-    content: "Embedded AI, Biomedical Electronics, Embedded Systems,Retrieval Augmented Generation, Energy-Efficient Deep Models (for Edge AI), Multi-Modal Agentic Systems, Sensor Fusion, Hardware_Software Co-Design"
+    content: "Embedded AI, Biomedical Electronics, Embedded Systems, Retrieval Augmented Generation, Energy-Efficient Deep Models (for Edge AI), Multi-Modal Agentic Systems, Sensor Fusion, Hardware Software Co-Design"
     image: /images/profile_pic.png
     bottomImage:
       enable: true
