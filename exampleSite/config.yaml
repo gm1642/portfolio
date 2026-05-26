@@ -227,7 +227,7 @@ params:
         badges:
           - "Unity (C#)"
           - "ESP32S3"
-          - "AJNAXR"
+          - "Embedded Video and Control Systems"
         links:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
@@ -236,6 +236,22 @@ params:
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile      - 
         
+      - title: OTP based smart lock
+        content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
+        image: /images/projects/convertor.jpeg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Embedded Systems"
+          - "Arduino"
+          - "Microcontrollers"
+          - "Internet of Things (IoT)"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Samkhan705279/otp_based_smartlock/blob/main/code.ino
+            
+                    
       - title: Virtual Lab XR Environment (AjnaXR + Unity)
         content: Developed a 360° VR-based virtual laboratory environment using the AjnaXR headset and Unity, enabling students to explore stitched panoramic scenes of the Communication Lab with teleport-based navigation and optimized XR performance.
         image: /images/projects/AR_VR.gif
@@ -288,20 +304,7 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/gm1642/GATE-Exam-RAG-Chatbot
-      - title: OTP based smart lock
-        content: Enabled secure user authentication through fingerprint recognition, triggering OTP generation sent via GSM to the user’s phone upon verification.
-        image: /images/projects/convertor.jpeg
-        # featured:
-        #   name: Demo
-        #   link: https://django-converter.herokuapp.com
-        badges:
-          - "Embedded Systems"
-          - "Arduino"
-          - "Microcontrollers"
-          - "Internet of Things (IoT)"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/converter
+
 
       - title: Deep Learning NLP Model for Medical Abstract(skimlit)
         content: Built deep learning NLP model with feature engineering for structured medical abstract segmentation.
